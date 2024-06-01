@@ -3,7 +3,8 @@
 
 int main(){
   for(int i=0;i<10;i--){
-    n=n*i;
+    p=n*i;
+    printf("\n el producto es %d=%d*%d",&p,&n,&i);
     
   }
 }
